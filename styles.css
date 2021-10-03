@@ -1,0 +1,209 @@
+.header {
+    display: flex;
+    background-color: white;
+    height: 3cm;
+    justify-content: left;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    margin-top: -2mm;
+    margin-left: -2mm;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+
+.logo{
+    margin-left: 1cm;
+    justify-self: left;
+    height: 2cm;
+    width: 2cm;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 1cm;
+}
+.insta-link-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2cm;
+    width: 3cm;
+    margin-right: 5mm;
+    
+}
+.insta {
+    max-width: 5mm;
+    margin-right: 1mm;
+    padding-bottom: 1mm;
+    
+}
+.insta-link-box:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2cm;
+    width: 3cm;
+    margin-right: 5mm;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;  
+}
+.facebook-link-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 2cm;
+    width: 3cm;
+    margin-right: 5mm;
+}
+.facebook-link-box:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2cm;
+    width: 3cm;
+    margin-right: 5mm;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;  
+}
+
+    .facebook {
+    align-self: center;
+    width: 6mm;
+    height: 6mm;
+    margin-right: 1mm;
+    padding-bottom: 1mm;
+    
+}
+.header-link1 {
+    text-decoration: none;
+    color: black;
+}
+
+.header-link2 {
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+.box1 {
+    background-color: rgb(122, 255, 226);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   padding-top: 30mm;
+   padding-bottom: 12mm;
+   margin-left: -10mm;
+   margin-right: -10mm;
+
+
+}
+.welcome-box { 
+    margin-top: 1cm;
+    background-color: rgba(255, 255, 255, 0.418);
+    padding: 1cm;
+    border-radius: 2mm;
+
+}
+
+.welcome {
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.discription {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.booking {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 2mm;
+    border-radius: 1mm;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.kk-main {
+    height: 6cm;
+    margin-left: 1cm;
+    margin-top: 1cm;
+    border-radius: 1cm;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.1) inset; 
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.events-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 2cm;
+}
+
+.paint-and-sip {
+    width: 4cm;
+    height: 4cm;
+    border-radius: 5mm;
+    margin-right: 1cm;
+    border: yellowgreen solid 1px;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.1) inset; 
+    text-align: center;
+
+}
+.paint-and-sip-img {
+    width: 4cm;
+    height: 4cm;
+    border-radius: 5mm;
+    
+}
+
+.kids-krafts {
+    width: 4cm;
+    height: 4cm;
+    border-radius: 5mm;
+    margin-right: 1cm;
+    border: yellowgreen solid 1px;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.1) inset; 
+    text-align: center;
+
+}
+.privte-events {
+    width: 4cm;
+    height: 4cm;
+    border-radius: 5mm;
+    margin-right: 1cm;
+    border: yellowgreen solid 1px;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.1) inset; 
+    text-align: center;
+}
+
+.charity {
+    width: 4cm;
+    height: 4cm;
+    border-radius: 5mm;
+    border: rgb(80, 117, 6) solid 1px;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.1) inset; 
+    text-align: center;
+}
+.box3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(255, 218, 95);
+}
+.testamonial {
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    background-color: rgba(255, 255, 255, 0.418);
+    padding: 1cm;
+    border-radius: 2mm;
+
+}
